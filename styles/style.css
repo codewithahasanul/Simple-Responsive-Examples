@@ -1,15 +1,15 @@
 h1 {
-    background-color: bisque;
-    padding: 20px;
-    text-align: center;
-    color: tomato;
+  background-color: bisque;
+  padding: 20px;
+  text-align: center;
+  color: tomato;
 }
 img {
   width: 100%;
   height: 100%;
 }
-section{
-    margin-bottom: 50px;
+section {
+  margin-bottom: 50px;
 }
 .row {
   height: 400px;
@@ -27,4 +27,22 @@ section{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5px;
+}
+/* responsive  media query */
+/* small device */
+@media screen and (max-width: 576px) {
+  .row {
+    flex-direction: column;
+    height: auto;
+  }
+  .square-collage {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* medium device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .row {
+    flex-direction: column;
+    height: auto;
+  }
 }
