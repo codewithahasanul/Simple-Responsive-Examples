@@ -4,5 +4,5 @@
 <ul>
   <li>Html</li>
   <li>Css</li>
-  <li> Site is live at https://codewithahasanul.github.io/Simple-Responsive-Examples/</li>
+  <li> Site is live at https://codewithahasanul.github.io/simple-responsive-examples/</li>
 </ul>
